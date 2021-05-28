@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Chuoi {
+    // bài 1
     void checkSubString() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập chuỗi A: ");
@@ -16,6 +17,7 @@ public class Chuoi {
         }
     }
 
+    // bài 2
     void loaiBoKiTu() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Nhập chuỗi A: ");
@@ -23,7 +25,7 @@ public class Chuoi {
         System.out.println(unique(a));
     }
 
-     String unique(String s) {
+    String unique(String s) {
         String str = new String();
         for (int i = 0; i < s.length(); i++) {
             if (str.indexOf(s.charAt(i)) < 0) {
